@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    text-align: center;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+header.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+
+.row{
+    width: calc(100% / 3);
+}
