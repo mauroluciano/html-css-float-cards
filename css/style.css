@@ -9,15 +9,15 @@ body {
     text-align: center;
 }
 
-.clearfix::after {
-    clear: both;
-    content: "";
-    display: block;
+h1 {
+    margin-bottom: 30px;
+    color: #e53170;
 }
 
 .container {
-    max-width: 900px;
+    width: 1000px;
     margin: auto;
+    padding: 0 20px;
 }
 
 header.container {
@@ -25,7 +25,41 @@ header.container {
     margin-bottom: 50px;
   }
 
+.clearfix {
+    clear: both;
+    content: "";
+    display: block;
+  }
 
-.row{
-    width: calc(100% / 3);
+
+.row {
+    max-width: 1000px;
+}
+
+.box {
+    width: calc(90% / 3) ;
+    float: left;
+    margin:0 10px 30px 0;
+    text-align: left;
+    background-color: #0f0e17;
+    color: white;
+}
+
+.box img {
+    height: 80px;
+    float: left;
+    margin: 0;
+    padding-right: 10px;
+}
+
+a {
+    font-size: small;
+    text-decoration: none;
+    color: #4983c9;
+    display: block;
+}
+
+h4 {
+    padding-top: 6px;
+
 }
